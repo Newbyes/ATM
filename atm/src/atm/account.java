@@ -1,6 +1,7 @@
 package atm;
 
-public class account {
+public class account 
+{
 	//account holder name
 	String holderName;
 	//account no.
@@ -10,5 +11,12 @@ public class account {
 	//pin
 	int pin;
 	// constructor
+	account(String holdername, int accno, int balance, int pin)
+	{
+		this.holderName = holdername;
+		this.accno = accno;
+		this.balance = balance;
+		this.pin = pin;
+	}
 	// methods
 }
