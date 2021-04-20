@@ -53,3 +53,8 @@ public class Transaction {
                 System.out.println("Balance : "+balance);
                 System.out.println("");
                 break;
+
+                case 4:
+                System.exit(0);
+            }
+        }
