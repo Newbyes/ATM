@@ -39,3 +39,12 @@ public class Transaction {
                 }
                 System.out.println("");
                 break;
+
+                case 2:
+                System.out.print("Enter money to be deposited:");
+                deposit = s.nextInt();
+                balance = balance + deposit;
+                System.out.println("Your Money has been successfully deposited");
+                System.out.println("Balance after deposit is: "+balance);
+                System.out.println("");
+                break;
