@@ -48,3 +48,8 @@ public class Transaction {
                 System.out.println("Balance after deposit is: "+balance);
                 System.out.println("");
                 break;
+
+                case 3:
+                System.out.println("Balance : "+balance);
+                System.out.println("");
+                break;
