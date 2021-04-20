@@ -21,3 +21,21 @@ public class Transaction {
             System.out.println("Choose 4 for EXIT");
             System.out.print("Choose the operation you want to perform:");
             int n = s.nextInt();
+
+            switch(n)
+            {
+                case 1:
+                System.out.print("Enter money to be withdrawn:");
+                withdraw = s.nextInt();
+                if(balance >= withdraw)
+                {
+                    balance = balance - withdraw;
+                    System.out.println("Please collect your money");
+                    System.out.println("Remaining Balance in Your Account is: "+balance);
+                }
+                else
+                {
+                    System.out.println("Insufficient Balance");
+                }
+                System.out.println("");
+                break;
